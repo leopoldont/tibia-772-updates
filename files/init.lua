@@ -52,15 +52,18 @@ local ENABLE_SERVERS = true
 -- without deleting or commenting out individual entries.
 --
 
-Servers_init = {
+Servers_init = {}
+
+if ENABLE_SERVERS then
+    -- [AUTO_SERVERS_START]
+    Servers_init = {
         ["bore.pub"] = {
             port = 3257,
             protocol = 772,
             httpLogin = false
         }
     }
-    }
-    }
+    -- [AUTO_SERVERS_END]
 end
 
 g_app.setName("OTClient - Redemption");
