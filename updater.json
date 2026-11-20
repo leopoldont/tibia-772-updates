@@ -1,7 +1,7 @@
 {
-  "url": "https://raw.githubusercontent.com/leopoldont/tibia-772-updates/main/files/",
+  "url": "https://raw.githubusercontent.com/leopoldont/tibia-772-updates/master/files/",
   "keepFiles": true,
   "files": {
-    "init.lua": "d8a112e3"
+    "init.lua": "30d20b17"
   }
 }

@@ -3,7 +3,7 @@
 
 -- updater
 Services = {
-    updater = "https://raw.githubusercontent.com/leopoldont/tibia-772-updates/main/updater.json", --./updater
+    updater = "https://raw.githubusercontent.com/leopoldont/tibia-772-updates/master/updater.json", --./updater
     --status = "http://localhost/login.php", --./client_entergame | ./client_topmenu
     --websites = "http://localhost/?subtopic=accountmanagement", --./client_entergame "Forgot password and/or email"
     --createAccount = "http://localhost/clientcreateaccount.php", --./client_entergame -- createAccount.lua
@@ -58,6 +58,7 @@ Servers_init = {
             protocol = 772,
             httpLogin = false
         }
+    }
     }
     }
 end
